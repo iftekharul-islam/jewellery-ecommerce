@@ -21,18 +21,14 @@ nav ul {
     padding: 0;
 }
 nav ul li {
-    margin-right: 10px;
+    margin-right: 5px;
 }
 li a, .dropbtn {
-    display: inline-block;
-    color: white;
+    display: inline;
+    color:black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-  }
-  
-  li a:hover, .dropdown:hover .dropbtn {
-    background-color: red;
   }
   
   li.dropdown {
@@ -55,8 +51,13 @@ li a, .dropbtn {
     display: block;
     text-align: left;
   }
+  .dropdown-content i{
+      padding-left: 10px;
+
+  }
   
-  .dropdown-content a:hover {background-color: #f1f1f1;}
+  .dropdown-content a:hover {
+      background-color: #f1f1f1;}
   
   .dropdown:hover .dropdown-content {
     display: block;
@@ -65,6 +66,31 @@ li a, .dropbtn {
 
 
 /* Featured Products Section Start */
+.float-icons ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+/* .social-image{
+    opacity: 1;
+    display: block;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+.social-text{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+.social-grid:hover .social-text{
+    opacity: 1;
+} */
 .product-grid {
     text-align: center;
     padding: 0 0 72px;
@@ -76,7 +102,7 @@ li a, .dropbtn {
 
 .product-grid .product-image {
     position: relative;
-    transition: all .3s ease 0s;
+    transition: all .5s ease 0s;
 }
 
 .product-grid .product-image a {
@@ -87,16 +113,30 @@ li a, .dropbtn {
     width: 100%;
     height: auto;
 }
+.float-icons{
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
 
 .product-grid .pic1 {
     opacity: 1;
-    transition: all .3s ease-out 0s;
+    transition: all .5s ease-out 0s;
+    backface-visibility: hidden;
 }
-
 
 .product-grid:hover .pic1 {
     opacity: 1;
     transform: scale(1.5);
+
+}
+.product-grid:hover .float-icons {
+    opacity: 1;
 
 }
 
@@ -111,6 +151,17 @@ li a, .dropbtn {
 
 
 /* Featured Products Section End */
+
+/* Vlog section Start */
+.vlog-left{
+    background-image: url(images/vlog-1.jpeg);
+    background-position: center;
+    background-size: cover;
+    min-height: 920px;
+    height: auto;
+}
+
+/* Vlog section End */
 
 
 /* Social Image Section start  */
@@ -132,7 +183,7 @@ li a, .dropbtn {
     text-align: center;
 }
 .social-grid:hover .social-image{
-    opacity: 0.4;
+    opacity: 0.6;
 }
 .social-grid:hover .social-text{
     opacity: 1;
@@ -148,7 +199,7 @@ li a, .dropbtn {
 /* offer section start  */
 .brown-background {
     background-color: rgb(254,181,101);
-    min-height: 670px;
+    min-height: 664px;
 }
 .offer-left {
     color: black;
@@ -157,8 +208,8 @@ li a, .dropbtn {
 }
 
 .offer-left img {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     float: right;
     display: inline;
     border-radius: 50%;
@@ -166,7 +217,9 @@ li a, .dropbtn {
 .offer-left-content{
     padding: 80px;
 }
-
+.offer-left-content p{
+    line-height: 2;
+}
 /* offer section end  */
 
 
