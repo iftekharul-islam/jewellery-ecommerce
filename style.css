@@ -65,6 +65,84 @@ li a, .dropbtn {
 /* Topbar End  */
 
 
+/* Navbar Start  */
+.searchbar{
+    border-radius: 50px;
+    padding: 10px;
+    }
+
+    .search_input{
+    color: black;
+    border: 0;
+    outline: 0;
+    background: none;
+    width: 0;
+    caret-color:transparent;
+    line-height: 20px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_input{
+    padding: 0 10px;
+    width: 200px;
+    caret-color:black;
+    background: white;
+    border-radius: 50px;
+    transition: width 0.4s linear;
+    }
+
+    .searchbar:hover > .search_icon{
+    background:;
+    color: white;
+    }
+
+    .search_icon{
+    height: 30px;
+    width: 30px;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color:white;
+    text-decoration:none;
+    }
+    hr{
+        margin: 0;
+        padding: 0;
+    }
+    
+    .nav-image{
+        opacity: 1;
+        display: block;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+    .nav-text{
+        transition: .5s ease;
+        opacity: 0;
+        position: absolute;
+        top: 10%;
+        left: 10%;
+        transform: translate(-10%, -10%);
+        -ms-transform: translate(-10%, -10%);
+        text-align: center;
+    }
+    .nav-grid:hover .nav-image{
+        opacity: 0.6;
+    }
+    .nav-grid:hover .nav-text{
+        opacity: 1;
+    }
+    .nav-text span{
+        text-align: center;
+        color: white;
+    
+    }
+
+/* Navbar End  */
+
+
 /* Featured Products Section Start */
 .float-icons ul {
     display: flex;
@@ -119,6 +197,17 @@ li a, .dropbtn {
 .product-grid:hover .float-icons {
     opacity: 1;
 
+}
+.product-grid .product-image a i {
+    color: black;
+    background-color:white;
+    border-radius: 50%;
+    border: 1px solid grey;
+    padding: 10px;
+  }
+.float-icons a:hover i{
+    color: white;
+    background-color: #feb564;
 }
 .product-content {
     text-align: center;
@@ -217,7 +306,13 @@ li a, .dropbtn {
 
 /* Special Services Start */
 .service{
-    height: 220px;
+    height: 240px;
+}
+.vertical-line{
+    width: 1px;
+    background-color: gray;
+    height: 100%;
+    float: right; 
 }
 
 /* Special Services End */
