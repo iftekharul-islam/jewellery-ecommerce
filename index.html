@@ -10,6 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
 
 </head>
 <body>
@@ -30,218 +32,242 @@
                 </ul>
             </div> 
     </nav>
-
     <!-- Topbar End -->
-
     <!-- Navbar Start  -->
-    <div>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-            <div class="px-5">
-                <div class="d-flex justify-content-start">
-                  <div class="searchbar">
-                    <input class="search_input" type="text" name="" placeholder="Search">
-                    <a href="#" class="search_icon"><i class="fa fa-search fa-lg"></i></a>
-                  </div>
-                </div>
-            </div>
-            <div class="d-flex justify-content-center">
-                <a class="navbar-brand" href="#">
-                    <img src="images/logo.png" alt="Logo">
-                  </a>
-            </div>
-            <div class="d-flex justify-content-end">
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                  </button>
-                  <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                    <ul class="navbar-nav">
-                      <li class="nav-item active">
-                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                      </li>
-                      <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                          New Trends
-                        </a>
-                        <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdownMenuLink">
-                            <div class="row">
-                                <div class="col-md-9">
-                                    <table>
-                                        <tr>
-                                            <td><a class="dropdown-item" href="#">DIAMOND</a></td>
-                                            <td><a class="dropdown-item" href="#">Diamond ring</a></td>
-                                            <td><a class="dropdown-item" href="#">Diamond Stud</a></td>
-                                            <td><a class="dropdown-item" href="#">Multi Stone Stud</a></td>
-                                            <td><a class="dropdown-item" href="#">Wedding Ring</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a class="dropdown-item" href="#">GENSTONE</a></td>
-                                            <td><a class="dropdown-item" href="#">Ruby</a></td>
-                                            <td><a class="dropdown-item" href="#">Tanzanite</a></td>
-                                            <td><a class="dropdown-item" href="#">Emerald</a></td>
-                                            <td><a class="dropdown-item" href="#">Sapphire</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a class="dropdown-item" href="#">GOLD</a></td>
-                                            <td><a class="dropdown-item" href="#">Dangle Earring</a></td>
-                                            <td><a class="dropdown-item" href="#">Hanging Earring</a></td>
-                                            <td><a class="dropdown-item" href="#">Heart Pendant</a></td>
-                                            <td><a class="dropdown-item" href="#">Bracelet</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a class="dropdown-item" href="#">PLATINUM</a></td>
-                                            <td><a class="dropdown-item" href="#">Chain</a></td>
-                                            <td><a class="dropdown-item" href="#">Pendant Chain</a></td>
-                                            <td><a class="dropdown-item" href="#">Women Ring</a></td>
-                                            <td><a class="dropdown-item" href="#">Flower Chain</a></td>
-                                        </tr>
-                                    </table>
-                                   </div>
-                                   <div class="col-md-3">
-                                    <table>
-                                        <tr>
-                                            <td><img src="images/nav-1.jpeg" alt="nav-1"></td>
-                                        </tr>
-                                      </table>
-                                   </div> 
+    <div class="row">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark col-12">
+<!--            <div class="row">-->
+<!--                <div class="col-12">-->
+                    <div class="px-5 col-4">
+                        <div class="d-flex justify-content-start">
+                            <div class="searchbar">
+                                <input class="search_input" type="text" name="" placeholder="Search">
+                                <a href="#" class="search_icon"><i class="fa fa-search fa-lg"></i></a>
                             </div>
-                          
                         </div>
-                      </li>
-                      <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Collections
-                          </a>
-                          <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdownMenuLink">
-                              <div class="row">
-                                  <div class="col-md-12">
-                                    <table>
-                                        <tr>
-                                            <td><a class="dropdown-item" href="#">CHIAN</a></td>
-                                            <td><a class="dropdown-item" href="#">Roller Chain</a></td>
-                                            <td><a class="dropdown-item" href="#">Flat-top chain</a></td>
-                                            <td><a class="dropdown-item" href="#">Leaf Chain</a></td>
-                                            <td><a class="dropdown-item" href="#">Silent Chain</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a class="dropdown-item" href="#">EARINGS</a></td>
-                                            <td><a class="dropdown-item" href="#">Statement Earring</a></td>
-                                            <td><a class="dropdown-item" href="#">Hoop Earring</a></td>
-                                            <td><a class="dropdown-item" href="#">Dangle Earring</a></td>
-                                            <td><a class="dropdown-item" href="#">Barbell Earring</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a class="dropdown-item" href="#">PENDANT</a></td>
-                                            <td><a class="dropdown-item" href="#">Gemstone Pendant</a></td>
-                                            <td><a class="dropdown-item" href="#">Pearl Pendan</a></td>
-                                            <td><a class="dropdown-item" href="#">Heart Pendant</a></td>
-                                            <td><a class="dropdown-item" href="#">Hamsa Pendant</a></td>
-                                        </tr>
-                                        <tr>
-                                            <td><a class="dropdown-item" href="#">RING</a></td>
-                                            <td><a class="dropdown-item" href="#">Class Ring</a></td>
-                                            <td><a class="dropdown-item" href="#">Moissanite Ring</a></td>
-                                            <td><a class="dropdown-item" href="#">Silver Ring</a></td>
-                                            <td><a class="dropdown-item" href="#">Birthstone Ring</a></td>
-                                        </tr>
-                                      </table>
-                                  </div>
+                    </div>
+                    <div class="d-flex justify-content-center col-3">
+                        <a class="navbar-brand" href="#">
+                            <img src="images/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="d-flex col-5">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuTrendingLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        New Trends
+                                    </a>
+                                    <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdownMenuTrendingLink">
+                                        <div class="row">
+                                            <div class="col-md-9">
+                                                <table>
+                                                    <tr>
+                                                        <td><a class="dropdown-item" href="#">DIAMOND</a></td>
+                                                        <td><a class="dropdown-item" href="#">Diamond ring</a></td>
+                                                        <td><a class="dropdown-item" href="#">Diamond Stud</a></td>
+                                                        <td><a class="dropdown-item" href="#">Multi Stone Stud</a></td>
+                                                        <td><a class="dropdown-item" href="#">Wedding Ring</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a class="dropdown-item" href="#">GENSTONE</a></td>
+                                                        <td><a class="dropdown-item" href="#">Ruby</a></td>
+                                                        <td><a class="dropdown-item" href="#">Tanzanite</a></td>
+                                                        <td><a class="dropdown-item" href="#">Emerald</a></td>
+                                                        <td><a class="dropdown-item" href="#">Sapphire</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a class="dropdown-item" href="#">GOLD</a></td>
+                                                        <td><a class="dropdown-item" href="#">Dangle Earring</a></td>
+                                                        <td><a class="dropdown-item" href="#">Hanging Earring</a></td>
+                                                        <td><a class="dropdown-item" href="#">Heart Pendant</a></td>
+                                                        <td><a class="dropdown-item" href="#">Bracelet</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a class="dropdown-item" href="#">PLATINUM</a></td>
+                                                        <td><a class="dropdown-item" href="#">Chain</a></td>
+                                                        <td><a class="dropdown-item" href="#">Pendant Chain</a></td>
+                                                        <td><a class="dropdown-item" href="#">Women Ring</a></td>
+                                                        <td><a class="dropdown-item" href="#">Flower Chain</a></td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <table>
+                                                    <tr>
+                                                        <td><img src="images/nav-1.jpeg" alt="nav-1"></td>
+                                                    </tr>
+                                                </table>
+                                            </div>
+                                        </div>
 
-                                  <div class="col-md-6">
-                                      <img src="images/nav-1.jpeg" alt="">
-                                  </div>
-                                  <div class="col-md-6">
-                                    <img src="images/nav-1.jpeg" alt="">
-                                  </div>
-
-                                </div>
-
-                              </div>
-                      </li>
-                      <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Shop
-                          </a>
-                          <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdownMenuLink">
-                            <div class="container">
-                                 <div class="row">
-                    
-                                        <div class="col-md-3">
-                                            <div class=" card nav-grid">
-                                                <img class="nav-image" src="images/nav-1.jpeg" alt="">
-                                                <div class="nav-text">
-                                                    <h3>Neckless</h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class=" card nav-grid">
-                                                <img class="nav-image" src="images/nav-1.jpeg" alt="">
-                                                <div class="nav-text">
-                                                    <h3>Couple Ring</h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class=" card nav-grid">
-                                                <img class="nav-image" src="images/nav-1.jpeg" alt="">
-                                                <div class="nav-text">
-                                                    <h3>Fancy Stud</h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-md-3">
-                                            <div class=" card nav-grid">
-                                                <img class="nav-image" src="images/nav-1.jpeg" alt="">
-                                                <div class="nav-text">
-                                                    <span>Diamond Ring</span>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        
                                     </div>
-                                   
-                            </div> 
-                              
-                          </div>
-                      </li>
-                      <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Pages
-                          </a>
-                          <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdownMenuLink">
-                            <a class="dropdown-item" href="#">About</a>
-                            <hr>
-                            <a class="dropdown-item" href="#">Services</a>
-                            <hr>
-                            <a class="dropdown-item" href="#">FAQs</a>
-                            <hr>
-                            <a class="dropdown-item" href="#">Blog</a>
-                            <hr>
-                            <a class="dropdown-item" href="#">Contact</a>
-                          </div>
-                      </li>
-      
-                    </ul>
-                  </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Collections
+                                    </a>
+                                    <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdownMenuLink">
+                                        <div class="row">
+                                            <div class="col-md-12">
+                                                <table>
+                                                    <tr>
+                                                        <td><a class="dropdown-item" href="#">CHIAN</a></td>
+                                                        <td><a class="dropdown-item" href="#">Roller Chain</a></td>
+                                                        <td><a class="dropdown-item" href="#">Flat-top chain</a></td>
+                                                        <td><a class="dropdown-item" href="#">Leaf Chain</a></td>
+                                                        <td><a class="dropdown-item" href="#">Silent Chain</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a class="dropdown-item" href="#">EARINGS</a></td>
+                                                        <td><a class="dropdown-item" href="#">Statement Earring</a></td>
+                                                        <td><a class="dropdown-item" href="#">Hoop Earring</a></td>
+                                                        <td><a class="dropdown-item" href="#">Dangle Earring</a></td>
+                                                        <td><a class="dropdown-item" href="#">Barbell Earring</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a class="dropdown-item" href="#">PENDANT</a></td>
+                                                        <td><a class="dropdown-item" href="#">Gemstone Pendant</a></td>
+                                                        <td><a class="dropdown-item" href="#">Pearl Pendan</a></td>
+                                                        <td><a class="dropdown-item" href="#">Heart Pendant</a></td>
+                                                        <td><a class="dropdown-item" href="#">Hamsa Pendant</a></td>
+                                                    </tr>
+                                                    <tr>
+                                                        <td><a class="dropdown-item" href="#">RING</a></td>
+                                                        <td><a class="dropdown-item" href="#">Class Ring</a></td>
+                                                        <td><a class="dropdown-item" href="#">Moissanite Ring</a></td>
+                                                        <td><a class="dropdown-item" href="#">Silver Ring</a></td>
+                                                        <td><a class="dropdown-item" href="#">Birthstone Ring</a></td>
+                                                    </tr>
+                                                </table>
+                                            </div>
 
-            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/nav-1.jpeg" alt="">
+                                            </div>
+                                            <div class="col-md-6">
+                                                <img src="images/nav-1.jpeg" alt="">
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Shop
+                                    </a>
+                                    <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdownMenuLink">
+                                        <div class="container">
+                                            <div class="row">
+
+                                                <div class="col-md-3">
+                                                    <div class=" card nav-grid">
+                                                        <img class="nav-image" src="images/nav-1.jpeg" alt="">
+                                                        <div class="nav-text">
+                                                            <h3>Neckless</h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class=" card nav-grid">
+                                                        <img class="nav-image" src="images/nav-1.jpeg" alt="">
+                                                        <div class="nav-text">
+                                                            <h3>Couple Ring</h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class=" card nav-grid">
+                                                        <img class="nav-image" src="images/nav-1.jpeg" alt="">
+                                                        <div class="nav-text">
+                                                            <h3>Fancy Stud</h3>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="col-md-3">
+                                                    <div class=" card nav-grid">
+                                                        <img class="nav-image" src="images/nav-1.jpeg" alt="">
+                                                        <div class="nav-text">
+                                                            <span>Diamond Ring</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+                                </li>
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Pages
+                                    </a>
+                                    <div class="dropdown-menu dropdown-content" aria-labelledby="navbarDropdownMenuLink">
+                                        <a class="dropdown-item" href="#">About</a>
+                                        <hr>
+                                        <a class="dropdown-item" href="#">Services</a>
+                                        <hr>
+                                        <a class="dropdown-item" href="#">FAQs</a>
+                                        <hr>
+                                        <a class="dropdown-item" href="#">Blog</a>
+                                        <hr>
+                                        <a class="dropdown-item" href="#">Contact</a>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+
+                    </div>
+<!--                </div>-->
+<!--            </div>-->
             
           </nav>
     </div>
 
     <!-- Navbar End  -->
     <!-- Slider Start -->
-    <div style="min-height: 600px;">
-        <h1 class="display-2 text-center"> IMAGE SLIDER</h1>
+    <div class="slider-section" style="min-height: 600px; background: #0f0f0f">
+        <div class="text-slider-wrapper">
+            <div class="text-slider">
+                <div class="text-slide"><h1>A blessing for <br> every skin.</h1></div>
+                <div class="text-slide"><h1>The perfect mix of <br> old & new.</h1></div>
+                <div class="text-slide"><h1>A journey over borders <br> & generations.</h1></div>
+                <div class="text-slide"><h1>Your are the <br> stylist.</h1></div>
+                <div class="text-slide"><h1>To be on the <br> forerfront.</h1></div>
+            </div>
+        </div>
+
+        <div class="slider-control">
+            <div class="prev"><button type="button"><ion-icon name="arrow-back"></ion-icon></button></div>
+            <div class="next"><button type="button"><ion-icon name="arrow-forward"></ion-icon></button></div>
+        </div>
+
+        <div class="blocks">
+            <div class="block-1"></div>
+            <div class="block-2"></div>
+            <div class="block-3"></div>
+        </div>
+
+        <div class="overlay"></div>
+
+        <div class="image-slider">
+            <div class="image-slide" id="one" style="background: url(https://images.unsplash.com/photo-1519011985187-444d62641929?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2452&q=80) no-repeat 50% 50%; background-size: cover;"></div>
+            <div class="image-slide" id="two" style="background: url(https://images.unsplash.com/photo-1509679708047-e0e562d21e44?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=60) no-repeat 50% 50%; background-size: cover;"></div>
+            <div class="image-slide" id="three" style="background: url(https://images.unsplash.com/photo-1508215302842-8a015a452a20?ixlib=rb-1.2.1&auto=format&fit=crop&w=1000&q=80) no-repeat 50% 50%; background-size: cover;"></div>
+            <div class="image-slide" id="four" style="background: url(https://images.unsplash.com/photo-1537510929030-2ffb7888f379?ixlib=rb-1.2.1&auto=format&fit=crop&w=2378&q=80) no-repeat 50% 50%; background-size: cover;"></div>
+            <div class="image-slide" id="five" style="background: url(https://images.unsplash.com/photo-1552793084-49132af00ff1?ixlib=rb-1.2.1&auto=format&fit=crop&w=2953&q=80) no-repeat 50% 50%; background-size: cover;"></div>
+        </div>
 
     </div>
-
-
-
-    <!-- Slider Start -->
-
-
-
     <!-- Featured Products Section Start  -->
     <section class=featured>
         <div class="container pt-5">
@@ -448,7 +474,6 @@
                                 </div>
                             </div>
                         </div>
-
                     </div>
                 </div>
                     
@@ -734,5 +759,43 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <!-- slider cdn-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.js"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    <script>
+
+        $(document).ready(function () {
+
+            var sickPrimary = {
+                autoplay: true,
+                autoplaySpeed: 2400,
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                speed: 1800,
+                cssEase: 'cubic-bezier(.84, 0, .08, .99)',
+                asNavFor: '.text-slider',
+                centerMode: true,
+                prevArrow: $('.prev'),
+                nextArrow: $('.next')
+            }
+
+            var sickSecondary = {
+                autoplay: true,
+                autoplaySpeed: 2400,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                speed: 1800,
+                cssEase: 'cubic-bezier(.84, 0, .08, .99)',
+                asNavFor: '.image-slider',
+                prevArrow: $('.prev'),
+                nextArrow: $('.next')
+            }
+
+            $('.image-slider').slick(sickPrimary);
+            $('.text-slider').slick(sickSecondary);
+
+        });
+
+    </script>
 </body>
 </html>
