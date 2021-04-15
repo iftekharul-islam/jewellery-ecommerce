@@ -191,7 +191,7 @@ li a, .dropbtn {
     top: 30px;
     background: #fff;
     padding: 0;
-    border: 1px solid #808080;
+    border: 1px solid #808080
 }
 .product-grid {
     text-align: center;
@@ -245,7 +245,6 @@ li a, .dropbtn {
     color: black;
     background-color:white;
     border-radius: 50%;
-    border: 1px solid grey;
     padding: 10px;
   }
 .float-icons a:hover i{
@@ -327,6 +326,8 @@ li a, .dropbtn {
     border: none;
 }
 
+
+
 /* Vlog section End */
 
 
@@ -355,10 +356,22 @@ li a, .dropbtn {
 }
 .social-grid:hover .social-text{
     opacity: 1;
+    color: white;
+    font-size: x-large;
+    font-weight: 900;
 }
 .social-text h3{
     text-align: center;
+    
+}
+.facebook-follow .btn{
+    color: black;
+    background-color: white;
+
+}
+.facebook-follow .btn:hover{
     color: white;
+    background-color: rgb(101, 139, 243);
 
 }
 
@@ -366,7 +379,7 @@ li a, .dropbtn {
 
 /* offer section start  */
 .offer-right{
-    background-image: url(images/offer-1.jpeg);
+    background-image: url(images/offer-1.jpg);
     min-height: 664px;
     color: black;
     background-position: center;
@@ -395,7 +408,6 @@ li a, .dropbtn {
 }
 /* offer section end  */
 
-
 /* Special Services Start */
 .vertical-line{
     width: 1px;
@@ -412,7 +424,7 @@ li a, .dropbtn {
     vertical-align: top;
 }
 .img-thumbnail {
-    width: 300px;
+    width: 230px;
     height: 100px;
 }
 
@@ -424,7 +436,7 @@ li a, .dropbtn {
 
 .footer-left {
     color: white;
-    background-image: url(https://images.unsplash.com/photo-1553925441-bc065758887d?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=668&q=80);
+    background-image: url(images/footer-bg.jpg);
     background-position: center;
     background-size: cover;
 }
@@ -640,7 +652,7 @@ button:focus {
     }
 }
 .btn:hover {
-    color: #161c2d;
+    color: white;
     text-decoration: none;
 }
 .btn:focus {
