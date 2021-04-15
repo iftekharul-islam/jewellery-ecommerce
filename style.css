@@ -408,8 +408,13 @@ li a, .dropbtn {
 }
 /* offer section end  */
 
-
-
+/* Special Services Start */
+.vertical-line{
+    width: 1px;
+    background-color: gray;
+    height: 100%;
+    float: right;
+}
 
 /* Special Services End */
 
