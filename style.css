@@ -50,7 +50,7 @@ li a, .dropbtn {
     background-color: #f9f9f9;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    z-index: 1000;
+
   }
 
   .dropdown-content a {
@@ -68,8 +68,10 @@ li a, .dropbtn {
   .dropdown-content a:hover {
       background-color: #f1f1f1;}
 
+
   .dropdown:hover .dropdown-content {
     display: block;
+    z-index: 1;
   }
 /* Topbar End  */
 
@@ -261,66 +263,15 @@ li a, .dropbtn {
 
 
 /* Vlog section Start */
-.fadeIn{
-    animation-name: fadeIn;
+.vlog-left{
+    background-image: url(images/blog-1.jpg);
+    min-height: 680px;
+    color: white;
+    background-position: center;
+    background-size: cover;
 }
-.animated {
-    animation-duration: 1s;
-    animation-fill-mode: both;
-}
-.item-data:before {
-    position: absolute;
-    width: 604px;
-    height: 725px;
-    content: "";
-    display: block;
-    background: rgba(0, 0, 0, 0.65);
-    top: 0;
-}
-.featured-content {
-    position: absolute;
-    height: auto;
-    width: auto;
-    display: block;
-    top: 43%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    -webkit-transform: translate(-50%, -50%);
-    text-align: center;
-}
-.featured-content:before {
-    position: relative;
-    content: "";
-    display: block;
-    background: url(//cdn.shopify.com/s/files/1/0418/1141/1111/t/2/assets/title-clip-art.png?v=6601255523441686388);
-    width: 405px;
-    height: 65px;
-    background-size: 80%;
-    background-position: top center;
-    margin: auto;
-    background-repeat: no-repeat;
-}
-.featured-content:before {
-    transform: scaleY(-1);
-    -webkit-transform: scaleY(-1);
-}
-.featured-content h2 {
-    font-size: 74px;
-}
-.featured-content p {
-    font-size: 32px;
-}
-.featured-content:after {
-    position: relative;
-    content: "";
-    display: block;
-    background: url(//cdn.shopify.com/s/files/1/0418/1141/1111/t/2/assets/title-clip-art.png?v=6601255523441686388);
-    width: 405px;
-    height: 65px;
-    background-size: 80%;
-    background-position: top center;
-    margin: auto;
-    background-repeat: no-repeat;
+.vlog-text{
+    padding-top: 200px;
 }
 .card{
     border: none;
@@ -436,7 +387,7 @@ li a, .dropbtn {
 
 .footer-left {
     color: white;
-    background-image: url(images/footer-bg.jpg);
+    background-image: url(images/footer-bg.jpeg);
     background-position: center;
     background-size: cover;
 }
@@ -473,6 +424,35 @@ tr td a:hover {
 
 /* footer section end */
 
+/* About Page Start*/
+.about-nav{
+    background-color: #23232F;
+    color: white;
+}
+.about{
+    background-color: #e4e4e4;
+}
+.about-images{
+    min-height: 450px;
+}
+.about-text{
+    min-height: 450px;
+}
+.about-text h1{
+    font-size: 42px;
+    font-weight: 800;
+}
+.about-text p{
+    font-size: 25px;
+    line-height: 40px;
+    font-weight: 500;
+}
+
+
+/* About Page End*/
+
+
+/* Image Slider */
 .image-slider {
     z-index: 0;
     margin: 0 auto;
