@@ -359,16 +359,6 @@ li a, .dropbtn {
 }
 /* offer section end  */
 
-/* Special Services Start */
-.vertical-line{
-    width: 1px;
-    background-color: gray;
-    height: 100%;
-    float: right;
-}
-
-/* Special Services End */
-
 
 /* footer section start */
 .align-top {
@@ -433,10 +423,10 @@ tr td a:hover {
     background-color: #e4e4e4;
 }
 .about-images{
-    min-height: 450px;
+    min-height: 500px;
 }
 .about-text{
-    min-height: 450px;
+    min-height: 500px;
 }
 .about-text h1{
     font-size: 42px;
@@ -447,9 +437,27 @@ tr td a:hover {
     line-height: 40px;
     font-weight: 500;
 }
-
-
+.about-nav h1 a{
+    color: white;
+    text-decoration: none;
+}
+.about-nav h1 a:hover{
+    color:#feb564;
+}
+.img-pad{
+    padding-top: 33px;
+}
 /* About Page End*/
+
+/* Shop Location Start*/
+.address{
+    background-color:#e4e4e4;
+    color: #868080;
+}
+
+
+
+/* Shop Location Start*/
 
 
 /* Image Slider */
