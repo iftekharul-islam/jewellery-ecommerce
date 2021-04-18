@@ -1450,7 +1450,7 @@ h6.text-uppercase {
 
 }
 .small-screen-margin {
-    margin-top: 20px;
+    margin-top: 8px;
 }
 @media screen and (max-width: 800px) {
     .main-image-column {
